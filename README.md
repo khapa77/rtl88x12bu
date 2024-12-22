@@ -45,3 +45,17 @@ Find the way through the foreign forum and GitHub [Portal]
 4.vi u-boot / scripts / dtc / dtc-lexer.lex.c_shipped Search YYLLOC to delete the -YylType YYLLOC;
 
 5. Rehelation, live └ (^ o ^) ┘ ▼ ▼▼
+
+Тут у нас немного исходников от u-boot 
+
+[U-BOOT](https://docs.u-boot.org/en/latest/board/rockchip/rockchip.html/ "Всплывающая подсказка")
+
+https://docs.u-boot.org/en/latest/board/rockchip/rockchip.html
+
+[Manual_build](https://github.com/mirobiala/rtl88x2bu-cl?ysclid=m4zcc56jo1171418288/ "Всплывающая подсказка")
+
+https://github.com/mirobiala/rtl88x2bu-cl?ysclid=m4zcc56jo1171418288
+
+https://wiki.friendlyelec.com/wiki/index.php/How_to_Build_FriendlyWrt#RK3328_Based_Boards
+
+https://mirror-03.infra.openwrt.org/releases/23.05.4/targets/rockchip/armv8/
