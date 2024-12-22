@@ -22,3 +22,26 @@ Read https://github.com/morrownr/88x2bu-20210702/blob/6c2ca754ec23dcf67993f036e7
 - File location is ``/etc/modules.d/rtl88x2bu.conf`` , not ``/etc/modprobe.d/88x2bu.conf``
   
 Example: add ``88x2bu rtw_drv_log_level=0 rtw_led_ctrl=0`` to **/etc/modules.d/rtl88x2bu.conf**
+
+
+
+Ссылка на исправление ошибок и сам текст:
+
+
+[Skillbox Media](https://programmersought.com/article/58058010014/#google_vignette/ "Всплывающая подсказка")
+
+https://programmersought.com/article/58058010014/#google_vignette
+
+solution
+
+Find the way through the foreign forum and GitHub [Portal]
+
+1. VI U-boot / makefile Add KBUILD_CFLAGS + = $ (CALL CC-Disable-Warning, Address-of-Packed-Member) Theore in theory, as long as there is no IF judgment affects the location of this sentence;
+
+2. VI U-BOOT / ARM / ARM / DTS / MAKEFILE CONFIG_ARCH_ROCKCHIP to delete the error DTB; generally RK3036-SDK.DTB, RK3188-Radxarock.dtb, rk3368-lion.dtb, rk3368-sheep.dtb, rk3368 -geekbox.dtb, rk3368-px5-evb.dtb, I remember there is still 1 ~ 2 reports wrong DTB files, please delete it according to the error;
+
+3. VI U-Boot / Scripts / DTC / DTC-LEXER.L Search YYLOC to delete the -YylType YYLLOC;
+
+4.vi u-boot / scripts / dtc / dtc-lexer.lex.c_shipped Search YYLLOC to delete the -YylType YYLLOC;
+
+5. Rehelation, live └ (^ o ^) ┘ ▼ ▼▼
